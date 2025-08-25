@@ -1,0 +1,12 @@
+pipeline {
+agent any
+stages{
+stage(code) {
+steps {
+echo "this is my message"
+}
+}
+stage(Build)
+steps {
+echo "this is build stage"
+}}}}
